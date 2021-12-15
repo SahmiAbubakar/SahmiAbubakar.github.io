@@ -17,7 +17,16 @@ h2,h3{
 .row{
 
 }
-
+.trollimage{
+    background: rgb(197, 197, 197);
+    border-radius: 5px;
+    font-size: large;
+    margin: auto;
+    width: 33%;
+    border-radius: 5px;
+    border-image-width: auto;
+    
+}
 .title{
     margin: auto;
     background: rgb(212, 208, 208);
@@ -33,4 +42,13 @@ h2,h3{
     font-size: large;
     margin: auto;
     width: 33%;
+}
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+
+}
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom:1.0;
 }
